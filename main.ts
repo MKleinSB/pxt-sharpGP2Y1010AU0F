@@ -1,11 +1,20 @@
-//% weight=10 color=#008B00 icon="\uf0c2" block="sharpGP2Y1010AU0F"
+   /**
+     * Makecode Extension for sharpGP2Y1010AU0F Dustsensor
+     * Original Code by ElecFreaks
+     * For use with the Dustsensors from ElecFreaks or DFRobot
+     * Have fun ...
+     */
+
+//% weight=10 color=#2E2E2E icon="\uf0c2"
+//% block="sharpGP2Y1010AU0F"
+
 namespace sharpGP2Y1010AU0F {
 
     let Reference_VOLTAGE = 3100
 
     /**
      * get dust value (μg/m³) 
-     * @param vLED describe parameter here, eg: DigitalPin.P16
+     * @param vLED describe parameter here, eg: DigitalPin.P0
      * @param vo describe parameter here, eg: AnalogPin.P1
      */
     //% blockId="readdust" block="value of dust(μg/m³) at LED %vLED| out %vo"
